@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "podcast-transcriptions"
+version = "0.1.0"
+description = "a script for transcribing podcasts leveraging OpenAI's Whisper model"
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "podcast_transcriptions"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+openai-whisper = "^20230314"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
